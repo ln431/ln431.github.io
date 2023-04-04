@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu-container {
+    width: 80%;
+    margin-left: 250px ;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 50px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    color: #27251F;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #27251F
+}
+
+h3  {
+    text-align: center;
+    font-size: 18px;
+    font-stretch: ultra-expanded;
+    font-family: Helvetica;
+    padding-top: 20px;
+    padding-bottom: -10px;
+    color: #27251F
+}
+
+img {
+    display: block;
+    margin-top: 0px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+}
+
+.Favorites {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    grid-gap: 90px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .game-container {
+        width: 100%;
+    }
+    .buttons {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tile {
+        width: 100px;
+        height: 100px;
+    }
+    .tile h2{
+        font-size: 60px;
+        line-height: 100px;
+    }
+    .board {
+        grid-gap: 15px;
+    }
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    padding-top:10px;
+  }
+  
+  .header-top {
+    float:left;
+    padding-left: 60px;
+  }
+
+  .logo {
+    display: block;
+    height: 108px;
+    width: 108px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  /* Style for the side navigation bar */
+.sidenav {
+    height: 100%; /* Full-height */
+    width: 250px; /* Set the width of the side navigation */
+    background-color: #fff; /* White background color */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc; /* Add a grey border on the right */
+    border-left: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;
+}
+  
+  /* Style for the navigation items */
+  .sidenav a {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Add space between image and text */
+    padding: 10px; /* Add padding */
+    text-decoration: none; /* Remove underline from text */
+    font-size: 16px; /* Set font size */
+    color: #444; /* Set font color */
+  }
+  
+  /* Hover effect for the navigation items */
+  .sidenav a:hover {
+    border-left: 4px solid #c00; /* Add a red border to the left */
+  }
+  
+  /* Style for the navigation item image */
+  .nav-img {
+    width: 80px;/* Set image width */
+    height: 70px;
+    margin-left: 0px;
+}
+  
+  /* Style for the navigation item text */
+  .nav-text {
+    font-weight: 800;
+    width: 130px; /* Set text width */
+    align-items: center; /* Center items vertically */
+    justify-content: left; /* Align text to the right */
+  }
+  
